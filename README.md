@@ -1,6 +1,6 @@
 # _3d_rendering_engine
 
-> Disclaimer: This is my first GitHub repository so so don't criticize my "README.md" and "syntax.txt" files too hard xD
+> Disclaimer: This is my first GitHub repository so so don't criticize my "README.md" and "syntax.txt" files too hard.
 
 **Object faces do NOT work YET**
 
