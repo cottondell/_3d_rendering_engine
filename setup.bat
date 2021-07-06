@@ -11,9 +11,8 @@ set target=nul
 if not exist %python_location% (
 	echo "%python_location%" not found!
 	set /P python_location="Python39 directory location: "
-	echo !python_location!
 	if not exist !python_location! (
-		echo !python_location!" not found!
+		echo "!python_location!" not found!
 		pause
 		EXIT /B 0
 	)
@@ -34,6 +33,7 @@ if not exist %target% (
 	mkdir %target%
 	if not exist %target% (
 		echo Error while creating package directory!
+		echo %target%
 		pause
 		EXIT /B 0
 	)
